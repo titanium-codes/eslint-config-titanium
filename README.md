@@ -6,7 +6,7 @@
 ## Installation
 
 ```
-$ npm install --save-dev eslint eslint-config-titanium
+$ npm install --save-dev eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-jest eslint-plugin-react eslint-config-titanium
 ```
 
 
