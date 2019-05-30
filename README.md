@@ -36,7 +36,7 @@ To use Titanium style in conjunction with ESLint's recommended rule set, extend 
 }
 ```
 
-To see how the `titanium` config compares with `eslint:recommended`, refer to the [source code of `index.js`](https://gitlab.titanium.codes/nicolai.voronin/eslint-config-titanium/blob/master/index.js), which lists every ESLint rule along with whether (and how) it is enforced by the `titanium` config.
+To see how the `titanium` config compares with `eslint:recommended`, refer to the [source code of `index.js`](https://github.com/titanium-codes/eslint-config-titanium/blob/master/index.js), which lists every ESLint rule along with whether (and how) it is enforced by the `titanium` config.
 
 
 ##### Heavily inspired by [eslint-config-google](https://github.com/google/eslint-config-google)
