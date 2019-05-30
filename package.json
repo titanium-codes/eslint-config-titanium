@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-titanium",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ESLint shareable config for the Titanium style",
   "license": "Apache-2.0",
   "repository": "titanium/eslint-config-titanium",
@@ -33,7 +33,11 @@
     "hint"
   ],
   "devDependencies": {
-    "eslint": "^5.16.0"
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-jest": "^22.6.4",
+    "eslint-plugin-react": "^7.13.0"
   },
   "peerDependencies": {
     "eslint": ">=5.16.0"

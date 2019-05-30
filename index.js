@@ -1,6 +1,20 @@
 'use strict';
 
 module.exports = {
+  parser: 'babel-eslint',
+  parserOptions: {
+    sourceType: 'module'
+  },
+  env: {
+    browser: true,
+    node: true,
+    jest: true
+  },
+  plugins: ['jest', 'react'],
+  extends: [
+    'airbnb',
+    'prettier'
+  ],
   rules: {
     // The rules below are listed in the order they appear on the eslint
     // rules page. All rules are listed to make it easier to keep in sync
