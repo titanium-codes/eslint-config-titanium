@@ -1,0 +1,41 @@
+{
+  "name": "eslint-config-titanium",
+  "version": "0.13.0",
+  "description": "ESLint shareable config for the Titanium style",
+  "license": "Apache-2.0",
+  "repository": "titanium/eslint-config-titanium",
+  "author": "Nicolai Voronin",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {},
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "Titanium",
+    "code",
+    "quality",
+    "style",
+    "lint",
+    "linter",
+    "jscs",
+    "jshint",
+    "jslint",
+    "eslint",
+    "validate",
+    "code style",
+    "strict",
+    "check",
+    "checker",
+    "verify",
+    "enforce",
+    "hint"
+  ],
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=5.16.0"
+  }
+}
