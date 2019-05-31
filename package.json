@@ -3,7 +3,7 @@
   "version": "0.0.3",
   "description": "ESLint shareable config for the Titanium style",
   "license": "Apache-2.0",
-  "repository": "titanium/eslint-config-titanium",
+  "repository": "titanium-codes/eslint-config-titanium",
   "author": "Nicolai Voronin",
   "engines": {
     "node": ">=0.10.0"
