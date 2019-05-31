@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-titanium",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "ESLint shareable config for the Titanium style",
   "license": "Apache-2.0",
   "repository": "titanium-codes/eslint-config-titanium",
