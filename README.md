@@ -5,9 +5,20 @@
 
 ## Installation
 
+Install [ESLint](https://www.github.com/eslint/eslint) locally. 
+ 
+You don't need ESLint if you use create-react-app boilerplate. 
+
+```sh
+$ npm install eslint --save-dev
 ```
-$ npm install --save-dev eslint eslint-config-airbnb eslint-config-prettier eslint-plugin-jest eslint-plugin-react eslint-config-titanium
+Install eslint-config-titanium with peer dependencies
+
+
 ```
+$ npm install --save-dev eslint-config-airbnb eslint-config-prettier eslint-plugin-jest eslint-plugin-react eslint-config-titanium
+```
+
 
 
 ## Usage
