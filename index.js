@@ -1,21 +1,17 @@
-'use strict';
+"use strict";
 
 module.exports = {
-  parser: 'babel-eslint',
+  parser: "babel-eslint",
   parserOptions: {
-    sourceType: 'module'
+    sourceType: "module"
   },
   env: {
     browser: true,
     node: true,
     jest: true
   },
-  plugins: ['jest', 'react'],
-  extends: [
-    'airbnb',
-    'prettier',
-    'prettier/react'
-  ],
+  plugins: ["jest", "react"],
+  extends: ["airbnb", "prettier", "prettier/react"],
   rules: {
     // The rules below are listed in the order they appear on the eslint
     // rules page. All rules are listed to make it easier to keep in sync
@@ -26,7 +22,6 @@ module.exports = {
     //   they don't override a base ruleset).
     // - Rules that are recommended but contradict the Titanium styleguide
     //   are explicitely set to the Google styleguide value.
-
     // Possible Errors
     // http://eslint.org/docs/rules/#possible-errors
     // ---------------------------------------------
@@ -68,12 +63,9 @@ module.exports = {
     //   prefer: {returns: 'return'},
     // }],
     // 'valid-typeof': 2 // eslint:recommended
-
-
     // Best Practices
     // http://eslint.org/docs/rules/#best-practices
     // --------------------------------------------
-
     // 'accessor-pairs': 0,
     // 'array-callback-return': 0,
     // 'block-scoped-var': 0,
@@ -143,12 +135,10 @@ module.exports = {
     // 'vars-on-top': 0,
     // 'wrap-iife': 0,
     // 'yoda': 0,
-
     // Strict Mode
     // http://eslint.org/docs/rules/#strict-mode
     // -----------------------------------------
     // 'strict': 0,
-
     // Variables
     // http://eslint.org/docs/rules/#variables
     // ---------------------------------------
@@ -164,7 +154,6 @@ module.exports = {
     // 'no-undefined': 0,
     // 'no-unused-vars': [2, {args: 'none'}], // eslint:recommended
     // 'no-use-before-define': 0,
-
     // Node.js and CommonJS
     // http://eslint.org/docs/rules/#nodejs-and-commonjs
     // -------------------------------------------------
@@ -179,7 +168,6 @@ module.exports = {
     // 'no-process-exit': 0,
     // 'no-restricted-modules': 0,
     // 'no-sync': 0,
-
     // Stylistic Issues
     // http://eslint.org/docs/rules/#stylistic-issues
     // ----------------------------------------------
@@ -309,7 +297,6 @@ module.exports = {
     // 'template-tag-spacing': 0,
     // 'unicode-bom': 0,
     // 'wrap-regex': 0,
-
     // ECMAScript 6
     // http://eslint.org/docs/rules/#ecmascript-6
     // ------------------------------------------
@@ -346,5 +333,5 @@ module.exports = {
     // 'symbol-description': 0,
     // 'template-curly-spacing': 0,
     // 'yield-star-spacing': [2, 'after'],
-  },
+  }
 };
