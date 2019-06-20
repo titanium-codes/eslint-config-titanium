@@ -13,7 +13,8 @@ module.exports = {
   plugins: ['jest', 'react'],
   extends: [
     'airbnb',
-    'prettier'
+    'prettier',
+    'prettier/react'
   ],
   rules: {
     // The rules below are listed in the order they appear on the eslint
